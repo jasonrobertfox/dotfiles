@@ -9,8 +9,6 @@ ZSH_CUSTOM=$HOME/.dotfiles/zsh
 # ZSH_THEME="agnoster"
 ZSH_THEME="jfox"
 
-spectrum_ls
-
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
