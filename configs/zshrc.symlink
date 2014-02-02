@@ -1,0 +1,98 @@
+# Path to your oh-my-zsh configuration.
+ZSH=$HOME/.oh-my-zsh
+ZSH_CUSTOM=$HOME/.dotfiles/zsh
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+# ZSH_THEME="agnoster"
+ZSH_THEME="jfox"
+
+spectrum_ls
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Set to this to use case-sensitive completion
+CASE_SENSITIVE="true"
+
+# Uncomment this to disable bi-weekly auto-update checks
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment to change how often before auto-updates occur? (in days)
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment following line if you want to disable colors in ls
+# DISABLE_LS_COLORS="true"
+
+# Uncomment following line if you want to disable autosetting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment following line if you want to disable command autocorrection
+# DISABLE_CORRECTION="true"
+
+# Uncomment following line if you want red dots to be displayed while waiting for completion
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment following line if you want to disable marking untracked files under
+# VCS as dirty. This makes repository status check for large repositories much,
+# much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment following line if you want to  shown in the command execution time stamp
+# in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
+# yyyy-mm-dd
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(git brew gem git-flow npm pip tmuxinator)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+export NODE_PATH="/usr/local/share/npm/lib/node_modules"
+export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"
+
+[ -f "/Users/jfox/.travis/travis.sh" ] && source "/Users/jfox/.travis/travis.sh"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+export PATH="/usr/local/php5/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:/usr/local/Cellar/smlnj/110.75/libexec/bin"
+export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="/Users/jfox/Library/Haskell/bin:$PATH"
+export PATH="/Users/jfox/Library/Python/2.7/bin:$PATH"
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$HOME/bin:$PATH"
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='subl -w'
+fi
+
+# Shortcuts
+alias ll="ls -lah"
+alias c="clear"
+alias gg="git status -s"
+alias mux=tmuxinator
+alias stats=zsh_stats
+
+alias d="cd ~/development"
+alias desk="cd ~/Desktop"
+alias p="cd ~/Dropbox/projects"
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/dsa_id"
+

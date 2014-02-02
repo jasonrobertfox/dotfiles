@@ -1,0 +1,40 @@
+[core]
+    excludesfile = ~/.gitignore
+    editor = "subl -n -w"
+
+[user]
+    name = Jason Fox
+    email = jasonrobertfox@gmail.com
+
+[color]
+    # Use colors in Git commands that are capable of colored output when
+    # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+    ui = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = green bold
+    old = red bold
+    new = magenta bold
+[color "status"]
+    added = yellow
+    changed = magenta
+    untracked = cyan
+
+[merge]
+    # Include summaries of merged commits in newly created merge commit messages
+    log = true
+
+[gitflow "branch"]
+    master = master
+    develop = develop
+
+[gitflow "prefix"]
+    feature = feature/
+    release = release/
+    hotfix = hotfix/
+    support = support/
+    versiontag =
