@@ -11,4 +11,4 @@ Quick shell and settings installation.
 
 ZSH configured with a custom prompt, running on iTerm2 with Monokai Theme
 
-![prompt.png](https://raw.github.com/jasonrobertfox/dotfiles/prompt.png)
+![Prompt Screenshot](prompt.png?raw=true)
