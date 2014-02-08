@@ -15,7 +15,7 @@
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
 	<key>AutoHideTmuxClientSession</key>
-	<false/>
+	<true/>
 	<key>CheckTestRelease</key>
 	<true/>
 	<key>ClosingHotkeySwitchesSpaces</key>
@@ -400,7 +400,7 @@
 	<key>LeftCommand</key>
 	<integer>7</integer>
 	<key>LeftOption</key>
-	<integer>2</integer>
+	<integer>1</integer>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>MaxVertically</key>
@@ -412,7 +412,9 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -441,9 +443,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>786 289 445 270 0 0 1440 878 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>397 156 924 485 0 0 1440 878 </string>
+	<string>46 138 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>990 7 444 871 0 0 1440 878 </string>
+	<string>990 7 448 871 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 4 1270 874 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_8604778D-D6BB-4317-8785-5D2845162ED6</key>
@@ -1251,11 +1253,11 @@
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
-	<false/>
+	<true/>
 	<key>RightCommand</key>
 	<integer>8</integer>
 	<key>RightOption</key>
-	<integer>3</integer>
+	<integer>1</integer>
 	<key>SUAutomaticallyUpdate</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>

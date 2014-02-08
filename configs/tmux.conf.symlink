@@ -1,3 +1,16 @@
 set -g mode-mouse on
 set -g mouse-select-pane on
 set -g default-terminal "screen-256color"
+
+# Switch prefix to OSX control+a
+unbind-key C-b
+set-option -g prefix C-q
+
+# Use ZSH by default
+set-option -g default-shell /bin/zsh
+
+# Kill pane without confirming
+bind-key x kill-pane
+
+# reload ~/.tmux.conf using PREFIX r
+bind-key r source-file ~/.tmux.conf \; display "Reloaded!"

@@ -87,6 +87,14 @@ alias stats=zsh_stats
 alias d="cd ~/development"
 alias desk="cd ~/Desktop"
 alias p="cd ~/Dropbox/projects"
+alias nsb="cd ~/development/neverstopbuilding/blog"
+alias dotfiles="cd ~/.dotfiles; subl ."
+alias muxs="cd ~/.tmuxinator; subl ."
+alias algs="cd ~/Dropbox/projects/algorithms-coursera"
+
+alias tmks="tmux kill-session"
+alias tmka="tmux kill-server"
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
