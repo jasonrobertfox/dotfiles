@@ -96,6 +96,8 @@ alias algs="cd ~/Dropbox/projects/algorithms-coursera"
 alias tmks="tmux kill-session"
 alias tmka="tmux kill-server"
 
+alias rake='noglob rake'
+alias ber='noglob bundle exec rake'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

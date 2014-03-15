@@ -406,9 +406,9 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSColorPanelMode</key>
-	<string>1</string>
+	<string>0</string>
 	<key>NSColorPickerSlidersDefaults</key>
-	<string>1</string>
+	<string>0</string>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
@@ -445,7 +445,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>46 138 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>990 7 448 871 0 0 1440 878 </string>
+	<string>990 7 444 871 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 4 1270 874 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_8604778D-D6BB-4317-8785-5D2845162ED6</key>
@@ -600,11 +600,11 @@
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.098313517868518829</real>
+				<real>0.59674382209777832</real>
 				<key>Green Component</key>
-				<real>0.11400297284126282</real>
+				<real>0.59674382209777832</real>
 				<key>Red Component</key>
-				<real>0.11279432475566864</real>
+				<real>0.59674382209777832</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
@@ -682,7 +682,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>Yes</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
@@ -1267,7 +1267,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-02-02T04:35:53Z</date>
+	<date>2014-03-03T03:55:34Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
