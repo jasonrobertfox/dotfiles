@@ -53,7 +53,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export NODE_PATH="/usr/local/share/npm/lib/node_modules"
+export NODE_PATH="/usr/local/lib/node_modules"
 export PYTHONPATH="$PYTHONPATH:/usr/local/lib/python2.7/site-packages"
 export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"
 
